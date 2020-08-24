@@ -26,7 +26,7 @@ function disableButtonsDown(e) {
 }
 
 function makeFun() {
-    var audio = new Audio('sound.mp3');
+    var audio = new Audio('sound2.mp3');
 
     $(document).on('mousemove', disableButtonsDown)
     $(document).on("contextmenu", disableButtonsDown)
@@ -35,7 +35,8 @@ function makeFun() {
 
     $('.main').fadeOut(500, "swing", function(){
         audio.play();
-        $('body').css('background', 'url("https://thumb-p5.xhcdn.com/a/rxu-i_YQEDtbrtRdHAsevw/000/121/192/155_1000.gif")');
+       /* $('body').css('background', 'url("https://thumb-p5.xhcdn.com/a/rxu-i_YQEDtbrtRdHAsevw/000/121/192/155_1000.gif")'); */
+        $('body').css('background', 'url("https://i.gifer.com/2unv.gif")');
         $('.fun').show();
 
         setInterval(()=>{
